@@ -62,7 +62,10 @@
       $found   = $s->search($keyword);
       $count   = count($found);
     }
-    ?>
+    
+
+$connect = mysqli_connect("localhost", "root", "", "foodbank");
+?>
 <div class="container">  <div class="row">
 <div style="clear:both"></div>
 				
@@ -70,20 +73,24 @@
 			<div class="table-responsive"><br><h3><aside found="<?php echo $count ." results"; ?>"> You searched for [ <?php echo $keyword; ?> ] </aside></h3><br>
 				<table class="table table-bordered">
 					<tr>
+					    <th width="20%">Item Image</th>
 						<th width="40%">Item Name</th>
-						<th width="20%">Price</th>
-						<th width="15%">Add to cart</th>
+						<th width="10%">Price</th>
+						<th width="10%"></th>
 					</tr>
  
 
     <?php
+	
      if($s->get("key") && $count > 0) {
 
       foreach( $found as $row ) { ?>
 	                <tr>
+					    <td><img type="file" name="hidden_image" src="../admin/<?php echo $row["product_image"]; ?>" height="100" width="100"" /></td>
 						<td><?php echo $row['items']; ?></td>
-						<td><?php echo $row['price']; ?></td>				
-	     				<td><a href="single.php?action=add&r_id=<?php echo $_GET["r_id"];?>&code=<?php echo $values["item_code"];?>"><span class="text-danger">Add to cart</span></a></td>
+						<td><?php echo $row['price']; ?></td>
+                        <td><a href="../product-single.php?id=<?php echo $row["id"];?>&r_id=<?php echo $row["r_id"];?> "><span class="text-danger">Show Details</span></a></td>						
+	     				<!--<td><a href="single.php?action=add&r_id=<?php echo $_GET["r_id"];?>&code=<?php echo $values["item_code"];?>"><span class="text-danger">Add to cart</span></a></td>-->
 					</tr>
 
                     

@@ -53,7 +53,7 @@
 			$query = "INSERT INTO users (username, email, password, address, contact)
 					  VALUES('$username', '$email', '$password','$Address', '$contact')";
 			mysqli_query($db, $query);
-            header("Location:http://localhost/ajkerbazar/");
+            header("Location:http://localhost/OnlineMobileShop/");
 			$_SESSION['username'] = $username;
 			$_SESSION['success'] = "You are now logged in";
 			//header('location: index.php');
@@ -86,7 +86,7 @@
 			if (mysqli_num_rows($results) == 1) {
 				$_SESSION['username'] = $username;
 				$_SESSION['success'] = "You are now logged in";
-				header("Location:http://localhost/ajkerbazar/");
+				header("Location:http://localhost/OnlineMobileShop/");
 			}else {
 				array_push($errors, "Wrong username/password combination");
 			}

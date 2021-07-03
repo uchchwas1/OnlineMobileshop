@@ -24,7 +24,7 @@
 
 	//print_r($_GET);
 	//print_r($entry);
-   $connect = mysqli_connect("localhost", "root", "", "foodbank");
+   $connect = mysqli_connect("localhost", "uy3ga2l6qokxo", "uchchwas7", "db64tmqnys32rk");
 /*
 		$username = mysqli_real_escape_string($connect, $_POST['username']);
 		$password = mysqli_real_escape_string($connect, $_POST['password']);
@@ -116,7 +116,7 @@ if(isset($_SESSION['username'])){
 
 
 <?php
-  $connect = mysqli_connect("localhost", "root", "", "foodbank");
+  $connect = mysqli_connect("localhost", "uy3ga2l6qokxo", "uchchwas7", "db64tmqnys32rk");
     if ($entry->getId() != -1) {  ?>
 
 
@@ -126,16 +126,16 @@ if(isset($_POST["add_to_cart"]))
 {
 	if(isset($_SESSION["shopping_cart"]))
 	{
-		$item_array_id = array_column($_SESSION["shopping_cart"], $_POST["id"]);
+		$item_array_id = array_column($_SESSION["shopping_cart"], $_GET["id"]);
 		if(!in_array($_GET["r_id"], $item_array_id))
 		{
 			$count = count($_SESSION["shopping_cart"]);
 			$item_array = array(
 				'shop_id'			=>	$_GET["r_id"],
-				'item_id'         =>  $_POST["id"],
-				'item_name'			=>	$_POST["hidden_name"],
-				'item_price'		=>	$_POST["hidden_price"],
-				'item_quantity'		=>	$_POST["quantity"]
+				'item_id'         =>  $_GET["id"],
+				'item_name'			=>	$_GET["hidden_name"],
+				'item_price'		=>	$_GET["hidden_price"],
+				'item_quantity'		=>	$_GET["quantity"]
 			);
 			$_SESSION["shopping_cart"][$count] = $item_array;
 		}

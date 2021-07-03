@@ -1,7 +1,7 @@
 <html>
 <html>
 <head>
-    <title>Ajker Bazar</title>
+    <title>OnlineMobileShop</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -34,33 +34,33 @@
 <body>
      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">AjkerBazar</a>
+	      <a class="navbar-brand" href="OnlineMobileShop/index.php">OnlineMobileShop</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="http://localhost/ajkerbazar/index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item active"><a href="OnlineMobileShop/index.php" class="nav-link">Home</a></li>
 	          <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-              	<a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/index.php">Shop</a>
+              	<a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/index.php">Shop</a>
               	<a class="dropdown-item" href="wishlist.html">Wishlist</a>
                 <a class="dropdown-item" href="product-single.html">Single Product</a>
-                <a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/cart.php">Cart</a>
+                <a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/cart.php">Cart</a>
                 <a class="dropdown-item" href="checkout.html">Checkout</a>
               </div>
             </li>
 			  <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User</a>
               <div class="dropdown-menu" aria-labelledby="dropdown04">
-              	<a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/login.php">Login</a>
-              	<a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/register.php">Signup</a>
-                <a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/logout.php">Logout</a>
-                <a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/myprofile.php">My Profile</a>
-                <a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/Track_Order.php">Track Order</a>
-			    <a class="dropdown-item" href="http://localhost/ajkerbazar/orderHistoryTable.php">Order History</a>
+              	<a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/login.php">Login</a>
+              	<a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/register.php">Signup</a>
+                <a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/logout.php">Logout</a>
+                <a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/myprofile.php">My Profile</a>
+                <a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/Track_Order.php">Track Order</a>
+			    <a class="dropdown-item" href="http://localhost/OnlineMobileShop/orderHistoryTable.php">Order History</a>
               </div>
             </li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
@@ -71,16 +71,16 @@
             <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Client</a>
                   <div class="dropdown-menu" aria-labelledby="dropdown04">
-                  	<a class="dropdown-item" href="http://localhost/ajkerbazar/Admin/index.php">Login</a>
-                  	<!-- <a class="dropdown-item" href="http://localhost/ajkerbazar/CMS/signup/register.php">Signup</a> -->
-                    <a class="dropdown-item" href="http://localhost/ajkerbazar/Admin/logout.php">Logout</a>
-    				<a class="dropdown-item" href="http://localhost/ajkerbazar/Admin/displayorder.php">Order History</a>
+                  	<a class="dropdown-item" href="http://localhost/OnlineMobileShop/Admin/index.php">Login</a>
+                  	<!-- <a class="dropdown-item" href="http://localhost/OnlineMobileShop/CMS/signup/register.php">Signup</a> -->
+                    <a class="dropdown-item" href="http://localhost/OnlineMobileShop/Admin/logout.php">Logout</a>
+    				<a class="dropdown-item" href="http://localhost/OnlineMobileShop/Admin/displayorder.php">Order History</a>
 
                   </div>
                 </li>
 
                  <li class="nav-item"><a>
-			     <form action="localhost/ajkerbazar/search/searchFromHome.php" method="GET"><a class="nav-link">
+			     <form action="localhost/OnlineMobileShop/search/searchFromHome.php" method="GET"><a class="nav-link">
                  <input type="text"   name="key" placeholder="Search here" required>
                  <input type="submit" style="margin-top:5px;" class="btn btn-danger" value="Search" >
                  </form></a>
@@ -102,7 +102,7 @@
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
-						    <span class="text">ajkerbazar@gmail.com</span>
+						    <span class="text">uchchwasdasdev@gmail.com</span>
 					    </div>
 					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
 						  <span class="text">7 days delivery &amp; Free Returns</span>

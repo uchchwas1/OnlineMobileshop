@@ -50,7 +50,7 @@ table th {
          <div class="container">
 
 
-         <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">AJKERBAZAR</a>
+         <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">OnlineMobileShop</a>
          <a class="fa fa-user-circle" style="font-size:36px;color:blue" href="clientprofile.php"></a>
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@ table th {
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-               <a class="nav-link" href="http://localhost/ajkerbazar/index.html">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="http://localhost/OnlineMobileShop/index.php">Home <span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">About</a>
@@ -71,7 +71,7 @@ table th {
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                  <a class="dropdown-item" href="displayorder.php">See Orders</a>
-                 <a class="dropdown-item" href="/ajkerbazar/CMS/index.php">Shop</a>
+                 <a class="dropdown-item" href="/OnlineMobileShop/CMS/index.php">Shop</a>
                  <div class="dropdown-divider"></div>
                  <a class="dropdown-item" href="displaying.php">Display Items</a>
                </div>

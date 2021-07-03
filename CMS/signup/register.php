@@ -46,7 +46,7 @@
 		</div>
 		<p>
 			Already a member? <a href="login.php">Sign in</a>
-			<a href="http://localhost/ajkerbazar/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">HOME PAGE</a>
+			<a href="http://localhost/OnlineMobileShop/" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">HOME PAGE</a>
 		</p>
 	</form>
 </body>

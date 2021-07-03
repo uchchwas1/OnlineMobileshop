@@ -1,7 +1,3 @@
-<?php
- session_start();
- include "../navbarwWthoutSearch.php"
-?>
 </br></br>
 	<?php
 
@@ -179,50 +175,3 @@ if(isset($_GET["action"]))
 
 ?>
 
-<?php //include "header.html" ?>
-<div class="container">  <div class="row">
-			<?php
-
-			     $temp=$_GET['r_id'];
-				 $query ="select * from menu where r_id=$temp;";
-
-
-
-
-				$result = mysqli_query($connect, $query);
-
-
-
-				if(mysqli_num_rows($result) > 0)
-				{
-					while($row = mysqli_fetch_array($result))
-					{
-				?>
-
-
-			<?php include "itemTable.html" ?>
-
-
-			<?php
-					}
-				}
-			?>
-			<br><br>
-
-			<?php include "table.html"?>
-
-
-			</div>
-		</div>
-	</div>
-	<br />
-	</body>
-</html>
-
- <?php } else { ?>
-	<!-- Post -->
-
- <?php } ?>
-
-
-</div></div>
