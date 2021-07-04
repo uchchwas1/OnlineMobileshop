@@ -50,14 +50,14 @@ table th {
          <div class="container">
 
 
-         <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">AJKERBAZAR</a>
+         <a class="navbar-brand" href="http://localhost/OnlineMobileShop/index.html">OnlineMobileShop</a>
          <a class="fa fa-user-circle" style="font-size:36px;color:blue" href="clientprofile.php"></a>
 
 
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-               <a class="nav-link" href="http://localhost/ajkerbazar/index.html">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="http://localhost/OnlineMobileShop/Admin/clientprofile.php">Home <span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">About</a>

@@ -167,10 +167,10 @@ table th {
          					<th>Product Categoty</th>
          					<td>
                     <select name="pcategory" value="<?php echo $pro_cat; ?>">
-           					<option value="fruits">Fruits</option>
-           					<option value="rice-oil">Rice/Oil</option>
-           					<option value="vegetables">Vegitables</option>
-                    <option value="meat-fish">Meat/Fish</option>
+           					<option value="Mobile">Mobile</option>
+           					<option value="Powerbank">Powerbank</option>
+           					<option value="Smartwatch">Smart Watch</option>
+                    <option value="Accessories">Accessories</option>
                     <option value="others">Others</option>
            					</select>
                   </td>
