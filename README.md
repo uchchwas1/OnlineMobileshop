@@ -51,4 +51,10 @@ There are only two steps to run this website:
 - Seller can modify order status like: Pending to Processed, Shipped, Delivered.
 - Seller can show all products avalible in his shop.
 - Seller can logout from his account.
+
+
+## Screenshots
+**Home Page**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/main/Project%20Pictures/Capture.JPG?raw=true)
   
