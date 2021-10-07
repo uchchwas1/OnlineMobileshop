@@ -41,7 +41,7 @@ There are only two steps to run this website:
 - User can show order history.
 - User can logout from his account.
 
-   **Seller:**
+ **Seller:**
 - Seller can sign-in.
 - Seller can show his profile and also modify it.
 - Seller can add products.
