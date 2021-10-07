@@ -56,5 +56,5 @@ There are only two steps to run this website:
 ## Screenshots
 **Home Page**
 
-![alt text](https://github.com/uchchwas1/OnlineMobileshop/main/Project%20Pictures/Capture.JPG?raw=true)
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/Capture.JPG?raw=true)
   
