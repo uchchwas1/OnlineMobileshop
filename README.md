@@ -57,4 +57,38 @@ There are only two steps to run this website:
 **Home Page**
 
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/Capture.JPG?raw=true)
-  
+
+**Show Available Shopping Malls Listed**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/availble%20shopping%20mall.JPG?raw=true)
+
+
+**Listed Shops Under a Shopping Mall**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/listed%20a%20shops%20under%20a%20shopping%20mall.JPG?raw=true)
+
+
+**Show Products Available Under a Shop**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/products%20under%20a%20shop.JPG?raw=true)
+
+
+**Single Product Details and Description View**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/single%20product%20details.JPG?raw=true)
+
+
+**Products Added By a Customer**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/products%20added%20to%20cart.JPG?raw=true)
+
+
+**Order Tracking System**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/ordere%20tracking%20system.JPG?raw=true)
+
+
+**User Loging Portal**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/login%20portal.JPG?raw=true)
+
