@@ -28,3 +28,17 @@ There are only two steps to run this website:
 **DataBase:** MySQL
 
   
+## Features
+   **User:**
+- User can sign-up/ sign-in.
+- User can show all shopping malls using 'Find Available Shop' button.
+- User can show all shops nearby a user using 'Find Nearest Shopping Mall' button.
+- User can show his profile and also modify it.
+- User can add products in cart using 'Add to Cart'.
+- User can show product details and desciption by clicking that product.
+- User can press a order using 'order' button. Total order details show on this table.
+- User can track his order.
+- User can show order history.
+- User can logout from his account.
+
+  
