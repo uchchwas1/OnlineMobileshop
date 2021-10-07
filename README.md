@@ -53,7 +53,7 @@ There are only two steps to run this website:
 - Seller can logout from his account.
 
 
-## Screenshots
+## Screenshots 
 **Home Page**
 
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/Capture.JPG?raw=true)
@@ -88,7 +88,42 @@ There are only two steps to run this website:
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/ordere%20tracking%20system.JPG?raw=true)
 
 
-**User Loging Portal**
+**User Login Portal**
 
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/login%20portal.JPG?raw=true)
+
+**Seller Portal**
+**Seller Loging Portal**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/seller%20login%20portal.JPG?raw=true)
+
+
+**Seller Profile View And, Edit Profile**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/seller%20profile.JPG?raw=true)
+
+
+**Add Product To The Shop**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/adding%20product.JPG?raw=true)
+
+
+**Modify/Update Product To The Shop**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/update%20product.JPG?raw=true)
+
+
+**Delete/Remove Product To The Shop**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/delete%20product.JPG?raw=true)
+
+
+**All Availble Products Show on a list**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/delete%20product.JPG?raw=true)
+
+
+**Sell All Pending Oreders And, Can Change Their Status**
+
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/See%20received%20orders.JPG?raw=true)
 
