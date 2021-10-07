@@ -41,4 +41,14 @@ There are only two steps to run this website:
 - User can show order history.
 - User can logout from his account.
 
+   **Seller:**
+- Seller can sign-in.
+- Seller can show his profile and also modify it.
+- Seller can add products.
+- Seller can update products.
+- Seller can delete products.
+- Seller can see pending orders.
+- Seller can modify order status like: Pending to Processed, Shipped, Delivered.
+- Seller can show all products avalible in his shop.
+- Seller can logout from his account.
   
