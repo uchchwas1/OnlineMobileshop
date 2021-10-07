@@ -93,7 +93,7 @@ There are only two steps to run this website:
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/login%20portal.JPG?raw=true)
 
 **Seller Portal**
-**Seller Loging Portal**
+***Seller Loging Portal***
 
 ![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/seller%20login%20portal.JPG?raw=true)
 
@@ -120,7 +120,7 @@ There are only two steps to run this website:
 
 **All Availble Products Show on a list**
 
-![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/delete%20product.JPG?raw=true)
+![alt text](https://github.com/uchchwas1/OnlineMobileshop/blob/main/Project%20Pictures/Display%20item%20list%20of%20a%20seller.jpg?raw=true)
 
 
 **Sell All Pending Oreders And, Can Change Their Status**
