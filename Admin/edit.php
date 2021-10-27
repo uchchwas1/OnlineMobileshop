@@ -1,6 +1,6 @@
 <?php
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 
 session_start();
 
@@ -22,7 +22,7 @@ while ($row=mysqli_fetch_array($res))
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Ajker Bazar</title>
+    <title>OnlineMobileShop</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -61,7 +61,7 @@ table th {
          <!-- For the gap on border -->
          <div class="container">
 
-           <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">AJKERBAZAR</a>
+           <a class="navbar-brand" href="http://localhost/OnlineMobileShop/index.html">Online Mobile Shop</a>
            <a class="fa fa-user-circle" style="font-size:36px;color:blue" href="clientprofile.php"></a>
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,7 +71,7 @@ table th {
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-               <a class="nav-link" href="http://localhost/ajkerbazar/index.html">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="http://localhost/OnlineMobileShop/index.html">Home <span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">About</a>
@@ -82,7 +82,7 @@ table th {
                </a>
                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                  <a class="dropdown-item" href="displayorder.php">See Orders</a>
-                 <a class="dropdown-item" href="/ajkerbazar/CMS/index.php">Shop</a>
+                 <a class="dropdown-item" href="/OnlineMobileShop/CMS/index.php">Shop</a>
                  <div class="dropdown-divider"></div>
                  <a class="dropdown-item" href="displaying.php">Display Items</a>
                </div>
@@ -168,10 +168,9 @@ table th {
          					<td>
                     <select name="pcategory" value="<?php echo $pro_cat; ?>">
            					<option value="Mobile">Mobile</option>
-           					<option value="Powerbank">Powerbank</option>
-           					<option value="Smartwatch">Smart Watch</option>
-                    <option value="Accessories">Accessories</option>
-                    <option value="others">Others</option>
+           					<option value="Tablet">Tablet</option>
+           					<option value="Smart Watch">Smart Watch</option>
+                            <option value="others">Others</option>
            					</select>
                   </td>
          					</tr>

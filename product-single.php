@@ -85,7 +85,7 @@
 <?php 
 
 require_once 'CMS/classes/entry.php';
-$connect = mysqli_connect("localhost", "root", "", "foodbank");
+$connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
 $temp = $_GET["id"];
 $query = "SELECT * FROM menu WHERE id = $temp";
 $result = mysqli_query($connect, $query);
@@ -135,7 +135,7 @@ $result = mysqli_query($connect, $query);
 							</p>
 						</div>
     				<p class="price"><span><?php echo $price; ?> ৳</span></p>
-    				
+    				<p><?php echo $description ?></p>
 						<div class="row mt-4">
 							<div class="col-md-6">
 								<div class="form-group d-flex">
@@ -174,7 +174,8 @@ $result = mysqli_query($connect, $query);
           	<p>
 			<?php $temp = $_GET["r_id"];
 			      $temp1 = $_GET["id"];
-				  
+				  echo $temp ;
+				  echo $temp1;
 			
 			?>
 			<form method="POST" action="CMS/single_product_single.php?&r_id=<?php echo $temp; ?>&id=<?php echo $temp1; ?>&hidden_name=<?php echo $pName; ?>&hidden_price=<?php echo $price; ?>&quantity= 1">
@@ -182,7 +183,6 @@ $result = mysqli_query($connect, $query);
 			  <!--<a href="cart.html" class="btn btn-black py-3 px-5">Add to Cart</a>-->
 			</p>
 			</form>
-			<p><?php echo $description ?></p>
 			<div>
 			   
     		</div>

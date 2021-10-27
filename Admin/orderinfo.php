@@ -1,6 +1,6 @@
 <?php
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 
 session_start();
 ?>

@@ -4,7 +4,7 @@ session_start();
 //include "../navbarwWthoutSearch.php"
 include('../../navbarwWthoutSearch.php');
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 
 $res=mysqli_query($link,"select * from users where username ='". $_SESSION['username']."'");
 while ($row=mysqli_fetch_array($res))

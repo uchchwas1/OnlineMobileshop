@@ -1,6 +1,6 @@
 <?php
 
-    $con=mysqli_connect('localhost','root','','foodbank');
+    $con=mysqli_connect('localhost','root','','onlinemobileshop');
 
     if(!$con)
     {

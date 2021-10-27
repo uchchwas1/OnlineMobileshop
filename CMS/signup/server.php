@@ -10,7 +10,7 @@
 	$_SESSION['success'] = "";
 
 	// connect to database
-	$db = mysqli_connect('localhost', 'root', '', 'foodbank');
+	$db = mysqli_connect('localhost', 'root', '', 'onlinemobileshop');
 
 	// REGISTER USER
 	if (isset($_POST['reg_user'])) {

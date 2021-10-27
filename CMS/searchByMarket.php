@@ -56,6 +56,18 @@
          </div>
 
 </div>
+
+<div class="col-4">
+
+         <div class="card" style="width:350px">
+           <a href="index2.php?shop_id=5"><img class="card-img-top" src="images2\mohipalPlazaFeni.jpg"" alt="Card image"></a>
+           <div class="card-body">
+           <a href="index2.php?shop_id=5"><h4 class="card-title"> Mohipal Plaza Feni </h4>
+           </a>
+          </div>
+         </div>
+
+</div>
 </div>
  </body>
  </html>

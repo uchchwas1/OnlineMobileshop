@@ -7,7 +7,7 @@ include('./navbarwWthoutSearch.php');
 <head>
 
 
-  <title>Ajker Bazar</title>
+  <title>Online Mobile Shop</title>
 
 
     <meta charset="utf-8">
@@ -65,7 +65,7 @@ include('./navbarwWthoutSearch.php');
 <?php
 
 
-$connect = mysqli_connect("localhost", "root", "", "foodbank");
+$connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
 $total = 0;
 
 

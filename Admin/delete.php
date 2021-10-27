@@ -1,7 +1,7 @@
 
 <?php
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 $id=$_GET["id"];
 
 $res=mysqli_query($link,"select * from menu where id=$id");

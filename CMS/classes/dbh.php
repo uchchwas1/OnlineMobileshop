@@ -1,11 +1,11 @@
-<?php 
+<?php
 //session_start();
 class Dbh {
     private $dbh;
     private $error;
 
     public function __construct() {
-        $this->dbh = new PDO("mysql:dbname=foodbank;host=localhost;", 'root', '');
+        $this->dbh = new PDO("mysql:dbname=OnlineMobileShop;host=localhost;", 'root', '');
     }
 
     public function executeQuery($query) {

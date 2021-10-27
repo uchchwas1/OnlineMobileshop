@@ -1,6 +1,6 @@
 <?php
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 
 session_start();
 ?>
@@ -50,7 +50,7 @@ table th {
          <div class="container">
 
 
-         <a class="navbar-brand" href="http://localhost/OnlineMobileShop/index.php">OnlineMobileShop</a>
+         <a class="navbar-brand" href="http://localhost/ajkerbazar/index.html">OnlineMobileShop</a>
          <a class="fa fa-user-circle" style="font-size:36px;color:blue" href="clientprofile.php"></a>
 
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@ table th {
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
            <ul class="navbar-nav mr-auto">
              <li class="nav-item active">
-               <a class="nav-link" href="http://localhost/OnlineMobileShop/Admin/clientprofile.php">Home <span class="sr-only">(current)</span></a>
+               <a class="nav-link" href="http://localhost/OnlineMobileShop/index.php">Home <span class="sr-only">(current)</span></a>
              </li>
              <li class="nav-item">
                <a class="nav-link" href="#">About</a>
@@ -187,11 +187,10 @@ table th {
          					<th>Product Categoty</th>
          					<td>
          					<select name="pcategory">
-         					<option value="fruits">Fruits</option>
-         					<option value="rice-oil">Rice/Oil</option>
-         					<option value="vegetables">Vegitables</option>
-                  <option value="meat-fish">Meat/Fish</option>
-                  <option value="others">Others</option>
+         					<option value="Mobile">Mobile</option>
+         					<option value="Tablet">Tablet/Oil</option>
+         					<option value="Smart Watch">Smart Watch</option>
+                            <option value="others">Others</option>
          					</select>
          					</td>
          					</tr>

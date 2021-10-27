@@ -24,7 +24,7 @@
 
 	//print_r($_GET);
 	//print_r($entry);
-   $connect = mysqli_connect("localhost", "uy3ga2l6qokxo", "uchchwas7", "db64tmqnys32rk");
+   $connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
 /*
 		$username = mysqli_real_escape_string($connect, $_POST['username']);
 		$password = mysqli_real_escape_string($connect, $_POST['password']);
@@ -116,7 +116,7 @@ if(isset($_SESSION['username'])){
 
 
 <?php
-  $connect = mysqli_connect("localhost", "uy3ga2l6qokxo", "uchchwas7", "db64tmqnys32rk");
+  $connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
     if ($entry->getId() != -1) {  ?>
 
 

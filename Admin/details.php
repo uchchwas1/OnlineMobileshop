@@ -1,6 +1,6 @@
 <?php
 $link=mysqli_connect("localhost","root","");
-mysqli_select_db($link,"foodbank");
+mysqli_select_db($link,"onlinemobileshop");
 
 session_start();
 $id=$_GET["id"];
@@ -176,7 +176,7 @@ table th {
                    <?php
 
 
-                   $connect = mysqli_connect("localhost", "root", "", "foodbank");
+                   $connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
                    $total = 0;
 
 

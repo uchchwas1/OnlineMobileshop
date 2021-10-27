@@ -12,7 +12,7 @@ class Entry {
     
 
     public function __construct() {
-        $this->dbh = new PDO("mysql:dbname=foodbank;host=localhost;", 'root', '');
+        $this->dbh = new PDO("mysql:dbname=onlinemobileshop;host=localhost;", 'root', '');
     }
 
     public function createNew($name) {

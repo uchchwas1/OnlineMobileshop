@@ -65,7 +65,7 @@ session_start();
 <?php
 
 
-$connect = mysqli_connect("localhost", "root", "", "foodbank");
+$connect = mysqli_connect("localhost", "root", "", "onlinemobileshop");
 $total = 0;
 
 
